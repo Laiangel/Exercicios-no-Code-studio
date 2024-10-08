@@ -1,0 +1,30 @@
+var A = parseInt(prompt("Digite o valor de A"));
+var B = parseInt(prompt("Digite o valor de B"));
+var C = parseInt(prompt("Digite o valor de C"));
+var D = parseInt(prompt("Digite o valor de D"));
+
+// Operações de soma
+var somaAB = A + B;
+var somaAC = A + C;
+var somaAD = A + D;
+var somaBC = B + C;
+var somaBD = B + D;
+var somaCD = C + D;
+var multAB = A * B;
+var multAC = A * C;
+var multAD = A * D;
+var multBC = B * C;
+var multBD = B * D;
+var multCD = C * D;
+alert("Soma de A + B = " + somaAB);
+alert("Soma de A + C = " + somaAC);
+alert("Soma de A + D = " + somaAD);
+alert("Soma de B + C = " + somaBC);
+alert("Soma de B + D = " + somaBD);
+alert("Soma de C + D = " + somaCD);
+alert("Multiplicação de A * B = " + multAB);
+alert("Multiplicação de A * C = " + multAC);
+alert("Multiplicação de A * D = " + multAD);
+alert("Multiplicação de B * C = " + multBC);
+alert("Multiplicação de B * D = " + multBD);
+alert("Multiplicação de C * D = " + multCD);
